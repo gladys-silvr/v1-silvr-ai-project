@@ -121,7 +121,7 @@ function HeroSection() {
             from inbound leads.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <PrimaryButton href="#book-call">Book A Call</PrimaryButton>
+            <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
           </div>
           <p className="mt-4 text-lg text-slate-500">
             Built for sports organizations, nonprofits, and home service
@@ -422,32 +422,34 @@ function SolutionCard({
         </div>
 
         <div className="mt-auto shrink-0 border-t border-slate-100 pt-6">
-          <div className="min-h-[10.5rem] overflow-hidden rounded-2xl bg-gradient-to-br from-[#113251] via-[#1a4a75] to-[#5398EB] p-5 shadow-lg shadow-[#113251]/20 ring-1 ring-[#5398EB]/30">
-            <p className="text-sm font-bold uppercase tracking-[0.22em] text-[#B7D1E7]">
-              Pricing
-            </p>
-            <div className="mt-4 grid gap-3 sm:grid-cols-2">
-              <div className="rounded-xl bg-white/15 p-4 ring-1 ring-white/25 backdrop-blur-sm">
-                <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#B7D1E7]">
-                  Setup
-                </p>
-                <p className="mt-2 text-lg font-bold leading-tight text-white sm:text-xl">
-                  {setup}
-                </p>
-              </div>
-              <div className="rounded-xl bg-white/15 p-4 ring-1 ring-white/25 backdrop-blur-sm">
-                <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#B7D1E7]">
-                  Retainer
-                </p>
-                <p className="mt-2 text-lg font-bold leading-tight text-white sm:text-xl">
-                  {retainer}
-                </p>
+          <div className="pricing-panel-gradient relative flex min-h-[11rem] flex-col justify-center overflow-hidden rounded-2xl px-6 py-5 ring-1 ring-white/[0.1]">
+            <div className="relative z-10">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-white/50">
+                Pricing
+              </p>
+              <div className="mt-5 grid gap-5 sm:grid-cols-2 sm:gap-6">
+                <div className="sm:border-r sm:border-white/10 sm:pr-6">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-white/60">
+                    Setup
+                  </p>
+                  <p className="mt-2 text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl">
+                    {setup}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-white/60">
+                    Retainer
+                  </p>
+                  <p className="mt-2 text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl">
+                    {retainer}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
           <div className="mt-6">
-            <PrimaryButton href="#book-call">Book A Call</PrimaryButton>
+            <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
           </div>
         </div>
       </div>
@@ -536,7 +538,7 @@ function FinalCTASection() {
           system—so your team spends less time on manual work.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <PrimaryButton href="#book-call">Book A Call</PrimaryButton>
+          <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
         </div>
       </div>
     </section>
@@ -565,7 +567,7 @@ function Footer() {
             <a href="#solutions" className="hover:text-[#113251]">
               Pricing
             </a>
-            <a href="#book-call" className="hover:text-[#113251]">
+            <a href="/book-call" className="hover:text-[#113251]">
               Contact
             </a>
             <a href="#privacy" className="hover:text-[#113251]">
@@ -592,7 +594,7 @@ function Header() {
           <a href="#solutions" className="hover:text-[#113251]">
             Pricing
           </a>
-          <PrimaryButton href="#book-call">Book A Call</PrimaryButton>
+          <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
         </div>
       </div>
     </header>
