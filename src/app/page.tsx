@@ -121,7 +121,7 @@ function HeroSection() {
             from inbound leads.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
+            <PrimaryButton href="/book-call">Book a Call</PrimaryButton>
           </div>
           <p className="mt-4 text-lg text-slate-500">
             Built for sports organizations, nonprofits, and home service
@@ -449,7 +449,7 @@ function SolutionCard({
           </div>
 
           <div className="mt-6">
-            <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
+            <PrimaryButton href="/book-call">Book a Call</PrimaryButton>
           </div>
         </div>
       </div>
@@ -538,7 +538,7 @@ function FinalCTASection() {
           system—so your team spends less time on manual work.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
+          <PrimaryButton href="/book-call">Book a Call</PrimaryButton>
         </div>
       </div>
     </section>
@@ -594,7 +594,7 @@ function Header() {
           <a href="#solutions" className="hover:text-[#113251]">
             Pricing
           </a>
-          <PrimaryButton href="/book-call">Book A Call</PrimaryButton>
+          <PrimaryButton href="/book-call">Book a Call</PrimaryButton>
         </div>
       </div>
     </header>
